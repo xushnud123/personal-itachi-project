@@ -53,9 +53,9 @@ export default function Project({
           alt={title}
           priority
           quality={95}
-          className="absolute -right-40 top-8 hidden  w-[28.25rem] rounded-t-lg shadow-2xl
+        className="absolute -right-[12rem] top-8 hidden  w-[32rem] h-[auto] object-cover rounded-t-lg shadow-2xl
           transition
-          group-even:-left-40
+          group-even:-left-[12rem]
           group-even:right-[initial]
           group-hover:-translate-x-3
           group-hover:translate-y-3

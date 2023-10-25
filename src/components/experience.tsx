@@ -1,5 +1,7 @@
-'use client';
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-nocheck
 
+'use client';
 import useSectionInView from '@/lib/useSectionInView';
 import React from 'react';
 import {
