@@ -8,6 +8,8 @@ import { FaGithubSquare } from 'react-icons/fa';
 import useSectionInView from '@/lib/useSectionInView';
 import useActiveSectionContext from '@/context/useActiveSectionContext';
 
+import person from '../../public/28dcd3ce6357c2754f62ab59724a58a8.webp';
+
 export default function Intro() {
   const { ref } = useSectionInView({ link: 'Home', threshold: 0.5 });
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -26,7 +28,7 @@ export default function Intro() {
             transition={{ type: 'tween', duration: 0.2 }}
           >
             <Image
-              src="https://i.pinimg.com/564x/28/dc/d3/28dcd3ce6357c2754f62ab59724a58a8.jpg"
+              src={person.src}
               alt="Raimov Xushnudbek"
               width={192}
               height={192}

@@ -2,9 +2,9 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import comfi from '../../public/comfi.png';
-import buduar from '../../public/buduar.png';
-import famic from '../../public/famic.png';
+import comfi from '../../public/comfi.webp';
+import buduar from '../../public/buduar.webp';
+import famic from '../../public/famic.webp';
 
 export const links = [
   {
